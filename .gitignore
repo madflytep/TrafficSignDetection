@@ -1,0 +1,38 @@
+/.ipynb_checkpoints
+/datasets
+/traffic
+/YOLO_pipe/JSON2YOLO
+/YOLO_pipe/datasets
+/YOLO_pipe/infer_data
+
+# Игнорирование файлов среды разработки
+.vscode/
+.idea/
+
+# Игнорирование временных файлов
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Игнорирование файлов с данными
+data/
+*.csv
+*.xls
+*.xlsx
+*.h5
+*.pkl
+
+# Игнорирование моделей машинного обучения
+*.h5
+*.joblib
+
+# Игнорирование файлов настроек
+*.env
+
+# Игнорирование результатов обучения
+models/
+logs/
+
+# Игнорирование файлов, созданных Jupyter Notebook
+.ipynb_checkpoints/
